@@ -1,0 +1,9 @@
+h2:
+  enabled: true
+spring:
+  datasource:
+    url: jdbc:g2:mem:product_management_test_db
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
